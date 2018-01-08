@@ -39,5 +39,7 @@
             android:textColor="#0000FF"
             android:id="@+id/salida"
             android:layout_gravity="center_horizontal"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:text="que bonito es programar"/>
 
 </LinearLayout>
