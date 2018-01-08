@@ -8,13 +8,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MasVistasActivity extends AppCompatActivity {
-    
+
     private EditText entrada;
     private TextView salida;
 
     public MasVistasActivity() {
     }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +21,6 @@ public class MasVistasActivity extends AppCompatActivity {
         entrada=(EditText) findViewById(R.id.entrada);
         salida=(TextView) findViewById(R.id.salida);
     }
-
     public void sePulsa(View v){
         Toast.makeText(this,"pulsado",Toast.LENGTH_SHORT).show();
     }
