@@ -25,7 +25,7 @@ public class MasVistasActivity extends AppCompatActivity {
         Toast.makeText(this,"pulsado",Toast.LENGTH_SHORT).show();
     }
     /*metodo escuchador de evento(listener)
-    * toast es un aviso que permanece en la pantalla solo un tiempo y luego desaparece
+    * toast es un aviso que permanece en la pantalla solo un tiempo y luego desaparece.
     * como parametro del metodo se pasa la vista*/
     public void sePulsa0(View view)
     {
